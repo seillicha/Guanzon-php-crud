@@ -1,0 +1,10 @@
+CREATE DATABASE peopleDB;
+
+USE peopleDB;
+
+CREATE TABLE people (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT(3) NOT NULL
+);
+
