@@ -1,8 +1,10 @@
-CREATE DATABASE crud_expert;
-USE crud_expert;
+CREATE DATABASE app_users;
+
+USE app_users;
 
 CREATE TABLE users (
-    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
-    age INT(3) NOT NULL
+    age INT NOT NULL
 );
+
