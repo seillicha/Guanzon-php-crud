@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<h1>PHP CRUD Operation</h1>
+<h1> CREATE Operation</h1>
 
 <!-- Add Person Form -->
 <form action="create.php" method="post">
